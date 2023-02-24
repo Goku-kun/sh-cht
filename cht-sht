@@ -1,0 +1,2 @@
+# fuzzy finding through a list of files in the current directory and printing out to STDOUT
+ls -1 | fzf | read selected; cat $selected
